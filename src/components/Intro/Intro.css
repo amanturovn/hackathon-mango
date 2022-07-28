@@ -1,0 +1,54 @@
+.intro__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro__video {
+  position: relative;
+  /* max-width: 150%; */
+  /* padding-bottom: 56.25%; задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  /* height: 0;
+  overflow: hidden; */
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+ 
+}
+
+.intro__img-back {
+  display: flex;
+  position: absolute;
+  margin-top: -70%;
+  width: 50%;
+  z-index: 3;
+  /* margin-left: 40%; */
+  width: 50%;
+}
+.intro__img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__btn {
+  padding: 10px;
+  /* margin-top: -70%; */
+  z-index: 2;
+  border: none;
+}
+.intro-btn-block {
+  margin-top: -80%;
+}
+
+@media all and (max-width: 380px) {
+  .intro__btn {
+    margin-top: 10%;
+    padding: 1%;
+    width: 90%;
+  }
+}

@@ -1,0 +1,64 @@
+.navber-background {
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  /* margin-left: 5.2%; */
+  margin-top: 0;
+  width: 100%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  /* margin-right: 10%; */
+}
+
+.navbar-logo-block {
+  display: flex;
+  /* align-items: center; */
+  margin-left: 3%;
+  padding: 15px 0;
+  /* justify-content: space-between; */
+  /* padding-left: 20%; */
+}
+.navbar-block-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+  width: 5%;
+}
+.logo-mango-navbar {
+  width: 144px;
+  padding: 1% 0;
+}
+.navbar-icon {
+  width: 22px;
+  color: rgb(32, 32, 32);
+  z-index: 5;
+}
+.navbar-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: inherit;
+  /* width: 100%; */
+}
+.navbar-icon-p {
+  font-size: 11px;
+  margin-top: -3px;
+}
+.navbar-icon-content-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 430px) {
+  .logo-mango-navbar {
+    width: 120px;
+  }
+}

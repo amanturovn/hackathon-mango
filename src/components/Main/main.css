@@ -1,0 +1,220 @@
+.main__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.main-content-block{
+  width: 100%;
+}
+
+.main__content_first,
+.main__content_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  opacity: 1;
+}
+
+.main__content_first :hover,
+.main__content_second :hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.main__content_1 {
+  background: url(../Media/main_img1.jpg) no-repeat;
+}
+
+.main__content_2 {
+  background: url(../Media/main_img2.jpg) no-repeat;
+}
+.main__content_3 {
+  background: url(../Media/main_img3.jpg) no-repeat;
+}
+.main__content_4 {
+  background: url(../Media/main_img4.jpg) no-repeat;
+}
+.main__content_5 {
+  background: url(../Media/main_img7.jpg) no-repeat;
+}
+.main__content_6 {
+  background: url(../Media/main_img6.jpg) no-repeat;
+}
+.main__content_1,
+.main__content_2,
+.main__content_3,
+.main__content_4,
+.main__content_5,
+.main__content_6 {
+  height: 100vh;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.733);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 500px;
+  margin: 1px;
+}
+
+.main__content_1 h1,
+.main__content_2 h1,
+.main__content_3 h1,
+.main__content_4 h1,
+.main__content_5 h1,
+.main__content_6 h1 {
+  color: white;
+  margin-left: 20px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  /* -webkit-text-stroke-width: 0.01px; */
+  -webkit-text-stroke-color: #b9b4b4;
+}
+
+.main__content_1 button,
+.main__content_2 button,
+.main__content_3 button,
+.main__content_4 button,
+.main__content_5 button,
+.main__content_6 button {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.main-content-block {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 1330px) {
+  .main__content_1,
+  .main__content_2,
+  .main__content_3,
+  .main__content_4,
+  .main__content_5,
+  .main__content_6 {
+    width: 400px;
+  }
+}
+@media all and (max-width: 1210px) {
+  .main__content_1,
+  .main__content_2,
+  .main__content_3,
+  .main__content_4,
+  .main__content_5,
+  .main__content_6 {
+    width: 350px;
+  }
+}
+@media all and (max-width: 1060px) {
+  .main__content_1,
+  .main__content_2,
+  .main__content_3,
+  .main__content_4,
+  .main__content_5,
+  .main__content_6 {
+    width: 300px;
+  }
+  .main__content_1 h1,
+  .main__content_2 h1,
+  .main__content_3 h1,
+  .main__content_4 h1,
+  .main__content_5 h1,
+  .main__content_6 h1 {
+    font-size: 32px;
+  }
+}
+@media all and (max-width: 910px) {
+  .main__content_1,
+  .main__content_2,
+  .main__content_3,
+  .main__content_4,
+  .main__content_5,
+  .main__content_6 {
+    width: 250px;
+    height: 300px;
+    margin: 1px;
+  }
+  .main__btn {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 790px) {
+  .main__content_first {
+    /* width: 95%; */
+    display: flex;
+    flex-direction: column;
+  }
+  .main__content_second {
+    /* width: 95%; */
+    display: flex;
+    flex-direction: column;
+  }
+  .c .main__content_1 h1,
+  .main__content_2 h1,
+  .main__content_3 h1,
+  .main__content_4 h1,
+  .main__content_5 h1,
+  .main__content_6 h1 {
+    font-size: 20px;
+  }
+  .main__btn {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 670px) {
+  .main__content_first {
+    justify-content: center;
+  }
+  .main__content_second {
+    justify-content: center;
+  }
+  .main-content-block {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 35%; */
+  }
+  .main__content_1,
+  .main__content_2,
+  .main__content_3,
+  .main__content_4,
+  .main__content_5,
+  .main__content_6 {
+    width: 300px;
+  }
+}
+@media all and (max-width: 380px) {
+}
+@media (max-width: 780px) {
+  .main__content_1,
+  .main__content_2,
+  .main__content_3,
+  .main__content_4,
+  .main__content_5,
+  .main__content_6 {
+    width: 320px;
+    margin: 1px;
+  }
+
+  .main__content_1 h1,
+  .main__content_2 h1,
+  .main__content_3 h1,
+  .main__content_4 h1,
+  .main__content_5 h1,
+  .main__content_6 h1 {
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    /* -webkit-text-stroke-width: 0.01px; */
+    -webkit-text-stroke-color: #b9b4b4;
+  }
+}

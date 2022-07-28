@@ -1,0 +1,19 @@
+.footer-intro-content {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 100%;
+  /* margin-bottom: 0; */
+}
+.footer-intro-content {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 5%; */
+  justify-content: center;
+  text-align: center;
+}
+/* .footer-intro-title {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+} */

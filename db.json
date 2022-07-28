@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "title": "asd",
+      "description": "fds",
+      "price": "12",
+      "image": "sdf",
+      "image2": "cxv",
+      "image3": "xzc",
+      "image4": "cxz",
+      "id": 1
+    },
+    {
+      "title": "das",
+      "description": "das",
+      "price": "312",
+      "image": "das",
+      "image2": "dsa",
+      "image3": "das",
+      "image4": "dsa",
+      "id": 2
+    },
+    {
+      "title": "www",
+      "description": "fds",
+      "price": "123",
+      "image": "fds",
+      "image2": "sdf",
+      "image3": "fsfds",
+      "image4": "sdf",
+      "id": 3
+    },
+    {
+      "title": "asd",
+      "description": "das",
+      "price": "012",
+      "image": "sdf",
+      "image2": "fdsa",
+      "image3": "dfs",
+      "image4": "fds",
+      "id": 4
+    }
+  ]
+}

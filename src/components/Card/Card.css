@@ -1,0 +1,17 @@
+.buscet-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4%;
+}
+.btn-by {
+  background-color: rgba(66, 249, 255, 0.795);
+  border: 0;
+  padding: 1%;
+  width: 10%;
+}
+.btn-by:hover {
+  border-radius: 10px;
+  background-color: rgba(32, 190, 196, 0.795);
+  transition: 0.5s;
+}
